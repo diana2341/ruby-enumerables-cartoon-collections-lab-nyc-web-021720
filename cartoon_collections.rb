@@ -12,9 +12,9 @@ end
 
 def long_planeteer_calls (calls)
   calls.map do |c|
-    if c.count <=> 4
+     c.count <=> 4
       
    
-    end
+    
   end
 end
