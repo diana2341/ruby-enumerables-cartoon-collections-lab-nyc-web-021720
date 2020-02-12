@@ -1,21 +1,30 @@
-def roll_call_dwarves(dwarves)# code an argument here
- dwarves.each.with_index(1) do |name,index|
-   puts"#{index}.#{name}"
-  end
-  dwarves
+def roll_call_dwarves(names)
+names.each.with_index(1) do |name,inde|
+   puts "#{inde}.#{name}"
+ end
 end
 
-def summon_captain_planet(planteer)# code an argument here
-planteer.map {|name|"#{name.capitalize}!"}
-  end
- 
-
-def long_planeteer_calls(number)# code an argument here
-number.any?{|call|call.length > 4}
+def summon_captain_planet(planteer_calls)
+  planteer_calls.map do |calls| 
+ "#{calls.capitalize}!"
+  end 
 end
 
-def find_the_cheese(array)# code an argument here
-  # the array below is here to help
-  cheese_types = ["cheddar", "gouda", "camembert"]
-  array.find {|type|cheese_types.include?(type)}
+def long_planeteer_calls (calls)
+calls.any? do |c|
+  c.length > 4 
+  end
+end
+
+def find_the_cheese(types)
+      arr= ["cheddar","gouda","camembert"]
+
+types.find do |c|
+
+  arr.include?(c)
+  
+end
+#we made an array named array to equal the cheeses. we used the .find method to look through the types
+#we then checked if the array of cheeses is included in the types of food they gave us (array of food named types)
+  
 end
