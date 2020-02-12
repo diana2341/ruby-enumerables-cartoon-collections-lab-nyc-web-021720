@@ -24,5 +24,7 @@ types.find do |c|
   arr.include?(c)
   
 end
+#we made an array named array to equal the cheeses. we used the .find method to look through the types
+#we then checked if the array of cheeses is included in the types of food they gave us (array of food named types)
   
 end
