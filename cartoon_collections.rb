@@ -17,11 +17,11 @@ calls.any? do |c|
 end
 
 def find_the_cheese(types)
-  
-types.find do |c|
-    arr= ["cheddar","gouda","camembert"]
+      arr= ["cheddar","gouda","camembert"]
 
-  c.include?(arr)
+types.find do |c|
+
+  arr.include?(c)
   
 end
   
