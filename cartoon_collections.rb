@@ -14,7 +14,7 @@ def long_planeteer_calls (calls)
   calls.count do |c|
     c.length < 4 
       
-   end
+   
 
   end
 end
