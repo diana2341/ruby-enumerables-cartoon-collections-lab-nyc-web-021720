@@ -17,8 +17,8 @@ calls.any? do |c|
 end
 
 def find_the_cheese(types)
-  arr= ["cheddar","gouda",""
-types.include?(ni) { |c|c}
+  arr= ["cheddar","gouda","camembert"]
+types.include?(arr) { |c|c}
 
   
 end
