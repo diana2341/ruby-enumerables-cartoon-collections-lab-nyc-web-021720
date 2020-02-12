@@ -18,5 +18,6 @@ calls.each do |c|
       
    
   end
+  return true
   end
 end
