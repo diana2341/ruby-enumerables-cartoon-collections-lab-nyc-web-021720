@@ -17,7 +17,7 @@ calls.any? do |c|
 end
 
 def find_the_cheese(types)
-types.each do |cheese|
+types.find_all do |cheese|
   
 end
 end
