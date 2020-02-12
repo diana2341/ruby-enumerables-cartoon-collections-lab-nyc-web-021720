@@ -21,6 +21,6 @@ def find_the_cheese(types)
 types.each(arr) do |c|
   c.include?(arr)
   
-
+end
   
 end
