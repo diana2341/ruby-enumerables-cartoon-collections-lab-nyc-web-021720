@@ -19,5 +19,5 @@ end
 def find_the_cheese(types)
 types.include { |c|c}
 
-  end
+  
 end
