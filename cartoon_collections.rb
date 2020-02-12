@@ -17,8 +17,7 @@ calls.any? do |c|
 end
 
 def find_the_cheese(types)
-types.detect do |cheese|
- puts  cheese
-  
+types.detect do |c|
+puts c  
 end
 end
