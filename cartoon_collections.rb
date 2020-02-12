@@ -18,6 +18,5 @@ end
 
 def find_the_cheese(types)
 types.each do |cheese|
-  cheese.include?(cheddar)
 end
 end
