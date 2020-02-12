@@ -18,7 +18,7 @@ end
 
 def find_the_cheese(types)
 types.find_all do |cheese|
-  types
+  cheese
   
 end
 end
