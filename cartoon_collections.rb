@@ -17,5 +17,6 @@ calls.each do |c|
     elsif c.length <= 4 
     return false 
   end
+  
   end
 end
