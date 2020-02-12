@@ -15,3 +15,5 @@ calls.any? do |c|
   c.length > 4 
   end
 end
+
+def
