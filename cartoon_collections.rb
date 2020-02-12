@@ -18,7 +18,7 @@ end
 
 def find_the_cheese(types)
   arr= ["cheddar","gouda","camembert"]
-types.each do |c|
+types.map do |c|
   c.include?(arr)
   
 end
