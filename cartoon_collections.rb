@@ -18,6 +18,7 @@ end
 
 def find_the_cheese(types)
 types.detect do |c|
+  if c == cheese
 puts c  
 end
 end
