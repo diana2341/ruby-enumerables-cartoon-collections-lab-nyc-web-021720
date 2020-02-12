@@ -11,12 +11,5 @@ def summon_captain_planet(planteer_calls)
 end
 
 def long_planeteer_calls (calls)
-calls.all? do |c|
-   c.length <=> 4
-     
-  
-      
-   
-  
-  end
+puts calls
 end
