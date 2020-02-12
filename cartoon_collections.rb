@@ -1,3 +1,3 @@
 def roll_call_dwarves(names)
-  names.map{|n|puts n}
+  names.each_with_index{|n|puts n}
 end
