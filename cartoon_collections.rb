@@ -17,5 +17,6 @@ calls.any? do |c|
 end
 
 def find_the_cheese(types)
-  puts types
+types.each do |cheese|
+  cheese.include?(cheddar)
 end
