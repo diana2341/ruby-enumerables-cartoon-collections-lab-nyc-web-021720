@@ -14,9 +14,8 @@ def long_planeteer_calls (calls)
   calls.count do |c|
    if c.length < 4 
      return false 
-elsif c.length > 4
- return true
    end
-   
+    return true
+
   end
 end
