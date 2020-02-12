@@ -3,3 +3,5 @@ names.each.with_index(1) do |name,inde|
    puts "#{inde}.#{name}"
  end
 end
+
+def
