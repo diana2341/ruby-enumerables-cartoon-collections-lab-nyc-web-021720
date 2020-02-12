@@ -9,3 +9,4 @@ def summon_captain_planet(planteer_calls)
  "#{calls.capitalize}!"
   end 
 end
+
