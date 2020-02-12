@@ -4,4 +4,8 @@ names.each.with_index(1) do |name,inde|
  end
 end
 
-def
+def summon_captain_planet(planteer_calls)
+  planteer_calls.map do |calls| 
+    calls.capitalize
+  end 
+end
