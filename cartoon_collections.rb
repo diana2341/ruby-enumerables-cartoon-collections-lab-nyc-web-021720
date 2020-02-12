@@ -17,7 +17,7 @@ calls.any? do |c|
 end
 
 def find_the_cheese(types)
-types.include?(types) { |c|c}
+types.include?(ni) { |c|c}
 
   
 end
