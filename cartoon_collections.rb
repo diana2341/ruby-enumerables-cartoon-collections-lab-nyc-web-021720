@@ -16,4 +16,6 @@ calls.any? do |c|
   end
 end
 
-def
+def find_the_cheese(types)
+  puts types
+end
